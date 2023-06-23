@@ -8,7 +8,7 @@
 - step 5: create database name `node_crud` and table `users` with columns (id, name, email)
 - step 6: open project in code editor and go to nodejs/index.js file
 - step 7: change `mysql.createConnection` according to your mysql configuration
-- step 8: now start project for backend `npm start` (using port localhost:3001) & leave running....
+- step 8: now start project for backend `node index.js` (using port localhost:3001) & leave running....
 
 # setup frontend 
 - step 1: cd nodejs/frontend
