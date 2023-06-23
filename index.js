@@ -1,7 +1,9 @@
 const express = require('express');
 const mysql = require('mysql');
+var cors = require('cors')
 
 const app = express();
+app.use(cors())
 app.use(express.json());
 
 // Create MySQL connection
@@ -38,7 +40,7 @@ app.post('/api/users', (req, res) => {
 
 // Get all records
 app.get('/api/users', (req, res) => {
-    const sql = 'SELECT * FROM users';
+    const sql = 'SELECT * FROM users order by id desc';
     db.query(sql, (err, result) => {
         if (err) {
             console.error('Error retrieving users:', err);
