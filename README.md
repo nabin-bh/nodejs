@@ -1,4 +1,4 @@
-# nodejs by nabin-bh 
+# Nodejs (Express and React) CRUD by nabin-bh 
 
 # basic setup 
 - step 1: `git clone https://github.com/nabin-bh/nodejs.git`
