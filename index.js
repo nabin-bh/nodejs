@@ -12,7 +12,7 @@ const db = mysql.createConnection({
     user: 'root',
     password: 'root',
     database: 'node_crud',
-    port: '8889'
+    port: '3306'
 });
 
 // Connect to MySQL
